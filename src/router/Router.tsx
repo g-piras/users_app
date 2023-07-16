@@ -8,6 +8,7 @@ const Router = () => {
     <Routes>
       {/* HOME */}
       <Route path='/' element={<HomePage />} />
+      <Route path='/Homepage' element={<HomePage />} />
 
       {/* DETAIL */}
       <Route path='/:userId' element={<DetailPage />} />
